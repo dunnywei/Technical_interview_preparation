@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define strx(x) #x
+#define Xstr(x) str(x)
+#define oper multiply
+
+int k=2;
+int *pk=&k;
+
+void f(void **pp)
+{
+    (*pk)++;
+    *pp=pk;
+}
+int main() {
+  int *p;
+  f((void**) &p);
+  printf("%d\n",*p);
+}
