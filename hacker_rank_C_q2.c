@@ -7,15 +7,14 @@ int main()
 {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
-    //char ch;
+    char ch;
     char s[100];
-    //scanf("%c",&ch);
-    //printf("%c\n",ch);
+    scanf("%c \n",&ch);
+    printf("%c \n",ch);
     
     scanf("%[^\n]%*c",s);
     //scanf("%[^\n]%*c", s)
-    //printf("%c",s);
-    printf("%s \n",s);
+    printf("%s",s);
     return 0;
 }
 
