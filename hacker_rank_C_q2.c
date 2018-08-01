@@ -6,20 +6,20 @@
 int main() 
 {
 
-  /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+ /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     char ch;
     char s[100];
     char t[100];
 
-    scanf("%c \n",&ch);
-    printf("%c \n",ch);
+    //scanf("%c \n",&ch);
+    //printf("%c \n",ch);
     
     scanf("%[^\n]%*c \n",s);
     //scanf("%[^\n]%*c \n", s)
-    printf("%s \n",s);
+    printf("print s is %s \n",s);
     
-    scanf("%[^\n]%*c \n",t);
-    printf("%s \n",t);
+    scanf("%s \n",t);
+    printf("print t is %s \n",t);
     return 0;
 }
 
