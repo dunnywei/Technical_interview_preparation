@@ -3,7 +3,8 @@
  *link2->https://www.sanfoundry.com/c-program-number-decimal-to-binary-recursion/
 */
 #include <stdio.h>
-
+/*first way
+ *
 int convert(int _dec)
 {  
    int remiander=0;
@@ -17,6 +18,17 @@ int convert(int _dec)
    return remiander;                             
    
 }
+*/
+
+/*
+second way
+*/
+int convert(int _dec)
+{  
+    
+}
+   
+   
 
 int main(
    int dec,bin;
