@@ -4,6 +4,19 @@
 */
 #include <stdio.h>
 
+int convert(int _dec)
+{  
+   int remiander=0;
+   int divident=0 
+   if( _dec==1)
+   {
+      return 1;
+   }
+   divident=_dec/2;
+   remiander=divident%2+10*convert(divident_;
+   return remiander;                             
+   
+}
 
 int main(
    int dec,bin;
