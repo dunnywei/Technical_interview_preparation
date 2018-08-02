@@ -13,7 +13,7 @@ int convert(int _dec)
       return 1;
    }
    divident=_dec/2;
-   remiander=divident%2+10*convert(divident_;
+   remiander=divident%2+10*convert(divident);
    return remiander;                             
    
 }
