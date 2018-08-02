@@ -25,7 +25,17 @@ second way
 */
 int convert(int _dec)
 {  
-    
+   int number[10];
+   int index=0;
+   
+   while(_dec>0)
+   {
+      _dec/=2;
+      number[index++]=_dec%2;
+      printf("number[index++] is %d \n",number[index]);
+   }
+   
+   return 0;
 }
    
    
