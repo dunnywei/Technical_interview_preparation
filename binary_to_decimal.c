@@ -82,3 +82,4 @@ int main(){
    printf("The binary equivalent of %d is %d.\n", dec, bin);
     return 0;
 }
+//Link1->https://www.geeksforgeeks.org/program-decimal-binary-conversion/
