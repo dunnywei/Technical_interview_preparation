@@ -21,6 +21,7 @@ int convert(int _dec)
 /*
 second way
 */
+/*
 int convert(int _dec)
 {  
    int number[10];
@@ -68,6 +69,16 @@ int convert(int _dec)
    
    
    return sum;
+}
+*/
+//third through shift operator
+//link->https://www.youtube.com/watch?v=1MJ1o56x-g8
+int convert(int _dec)
+{  
+              
+   _dec=_dec>>1;
+      
+   return  _dec;
 }
    
    
